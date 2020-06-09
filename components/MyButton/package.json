@@ -1,0 +1,22 @@
+{
+    "name": "ice-my-btn",
+    "version": "1.0.0",
+    "description": "",
+    "author": "brizer",
+    "main": "index.js",
+    "repository": {
+      "type": "git"
+    },
+    "license": "MIT",
+    "keywords": [
+      "ice",
+      "component"
+    ],
+    "dependencies": {
+      "vue": "^2.5.16"
+    },
+    "componentConfig": {
+      "name": "button",
+      "title": "基础按钮"
+    }
+  }
