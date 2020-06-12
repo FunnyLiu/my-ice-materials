@@ -11,7 +11,9 @@
     "eslint": "eslint --cache --ext .js,.jsx ./",
     "stylelint": "stylelint ./**/*.scss"
   },
-  "files": ["build"],
+  "files": [
+    "build"
+  ],
   "devDependencies": {
     "@ice/spec": "^1.0.1",
     "eslint": "^6.0.1",
@@ -19,6 +21,11 @@
   },
   "materialConfig": {
     "template": "@icedesign/ice-vue-material-template",
-    "type": "vue"
+    "type": "vue",
+    "fusion-site": {
+      "id": 12892,
+      "name": "mytest",
+      "url": "https://fusion.design/api/v1/sites/12892/materials"
+    }
   }
 }
